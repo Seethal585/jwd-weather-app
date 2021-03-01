@@ -1,0 +1,28 @@
+{
+  "name": "jwd-weather-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "parcel-bundler": "^1.12.4"
+  },
+  "devDependencies": {
+    "mocha": "^8.3.0"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "parcel index.html",
+    "dev": "node -r dotenv/config ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Seethal585/jwd-weather-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Seethal585/jwd-weather-app/issues"
+  },
+  "homepage": "https://github.com/Seethal585/jwd-weather-app#readme"
+}
