@@ -1,5 +1,5 @@
 //API key generated
-// const appId = '9548b67bc2f02d4b6eda7880afdac810'
+
 require("dotenv").config();
 const appId = process.env.API_KEY
 
